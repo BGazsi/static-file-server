@@ -17,5 +17,6 @@ document.querySelector('.trackAddToCartEventOnClick').addEventListener('click', 
     xhr.onreadystatechange = function () {
         console.log(arguments)
     }
+
     xhr.send("foo=bar&lorem=ipsum");
 })
