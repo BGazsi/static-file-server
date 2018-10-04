@@ -1,16 +1,12 @@
 document.querySelector('.trackAddToCartEventOnClick').addEventListener('click', function () {
-    var oReq = new XMLHttpRequest();
-
-    // oReq.addEventListener("progress", updateProgress);
-    // oReq.addEventListener("load", transferComplete);
-    // oReq.addEventListener("error", transferFailed);
-    // oReq.addEventListener("abort", transferCanceled);
-
-
     var xhr = new XMLHttpRequest();
 
-    xhr.addEventListener('load error', function () {
-        debugger
+    xhr.addEventListener('load', function () {
+        console.log('success', arguments)
+    })
+
+    xhr.addEventListener('error', function () {
+        console.log(arguments)
     })
 
     xhr.open("POST", 'http://example.com', true);
@@ -19,14 +15,7 @@ document.querySelector('.trackAddToCartEventOnClick').addEventListener('click', 
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 
     xhr.onreadystatechange = function () {
-        debugger
-        if (this.readyState == XMLHttpRequest.DONE && this.status == 200) {
-
-        }
+        console.log(arguments)
     }
     xhr.send("foo=bar&lorem=ipsum");
-    // xhr.send(new Blob()); 
-    // xhr.send(new Int8Array()); 
-    // xhr.send(document);
-
 })
