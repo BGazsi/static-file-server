@@ -9,7 +9,7 @@ document.querySelector('.trackAddToCartEventOnClick').addEventListener('click', 
         console.log(arguments)
     })
 
-    xhr.open("POST", 'http://example.com', true);
+    xhr.open("POST", 'http://convkit.local', true);
 
     //Send the proper header information along with the request
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
