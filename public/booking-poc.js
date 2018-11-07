@@ -7,5 +7,3 @@ document.querySelectorAll('[data-convkit-id]').forEach(function (element) {
     xhr.send('product-id=' + element.getAttribute('data-convkit-id') + '&eventType=addToCart');
   })
 })
-
-alert('loaded')
