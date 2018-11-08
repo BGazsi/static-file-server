@@ -1,0 +1,8 @@
+{
+  "urls": {
+    "addToCart": "http://convkit.local:8080",
+    "favorite": "http://convkit.local:8080",
+    "purchase": "http://convkit.local:8080",
+    "show": "http://convkit.local:8080"
+  }
+}
