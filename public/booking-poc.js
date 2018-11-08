@@ -15,4 +15,6 @@ if (typeof Convkit !== 'object') {
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhr.send('product-id=' + element.getAttribute('data-convkit-id') + '&eventType=addToCart');
   };
+
+  Convkit.init()
 }
