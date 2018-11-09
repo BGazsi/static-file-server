@@ -11,5 +11,12 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "gulp-uglify": "^3.0.1",
+    "gulp": "github:gulpjs/gulp#v4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0"
   }
 }
