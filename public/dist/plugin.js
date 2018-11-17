@@ -17,10 +17,10 @@
     function config () {
       return {
         urls: {
-          addToCart: 'http://convkit.local:8080',
-          favorite: 'http://convkit.local:8080',
-          purchase: 'http://convkit.local:8080',
-          show: 'http://convkit.local:8080'
+          addToCart: 'https://convkit.local:8080',
+          favorite: 'https://convkit.local:8080',
+          purchase: 'https://convkit.local:8080',
+          show: 'https://convkit.local:8080'
         },
         selectors: {
           addToCart: '[data-atc]',
