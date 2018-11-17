@@ -131,3 +131,5 @@
     return convkitPlugin;
 
 })));
+
+window.convkitPlugin = new ConvKit()
