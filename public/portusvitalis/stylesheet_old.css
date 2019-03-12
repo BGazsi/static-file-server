@@ -1,0 +1,299 @@
+
+
+@font-face {
+    font-family: 'MotivaSansBold';
+    src: url('motiva-sans-bold-webfont.eot');
+    src: url('motiva-sans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('motiva-sans-bold-webfont.woff') format('woff'),
+         url('motiva-sans-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'MotivaSansItalic';
+    src: url('motiva-sans-regular-italic-webfont.eot');
+    src: url('motiva-sans-regular-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('motiva-sans-regular-italic-webfont.woff') format('woff'),
+         url('motiva-sans-regular-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'MotivaSansRegular';
+    src: url('motiva-sans-webfont.eot');
+    src: url('motiva-sans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('motiva-sans-webfont.woff') format('woff'),
+         url('motiva-sans-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body,td,th {
+	font-family: 'MotivaSansRegular', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #555;
+}
+body {
+	background-color: #FFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+h1 {
+	font-family: 'MotivaSansBold', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	margin-bottom: 30px;
+	margin-top: 40px;
+}
+
+strong {
+	font-family: 'MotivaSansBold', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+
+.italic {
+	font-family: 'MotivaSansItalic', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+
+
+
+h2 {
+	font-family: 'MotivaSansBold', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	color: #7fa83e;
+}
+
+hr {
+	border: 0;
+	background-color: #7fa83e;
+	height: 2px;
+	margin-top: 20px;
+	}
+	
+a:link, a:visited {
+		color: #7fa83e;
+	}
+	
+a:hover {
+		color: #555;
+	}
+	
+
+
+#content ul {
+
+list-style-type: square;
+
+}
+
+
+
+
+#content ul li {
+font-family: 'MotivaSansBold', Helvetica, Arial, sans-serif;
+font-size: 16px;
+line-height: 22px;
+
+}
+	
+.ar {
+	position: relative;
+	font: 12px 'MotivaSansBold', Helvetica, Arial, sans-serif;
+	left: 20px;
+	top: -20px;
+}
+
+
+#csik {
+	height: 9px;
+	background-color: #7fa83e;
+}
+
+#wrap {
+	width: 934px;
+	margin: 0 auto 0 auto;
+}
+
+#header {
+	height: 112px;
+}
+
+#logo {
+	float: left;
+	margin-right: 60px;
+}
+
+#navi {
+	float: left;
+	color: #777;
+	font-family: "MotivaSansBold", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	
+	height: 80px;
+	width: 450px;
+	padding-top: 25px;
+}
+
+#navlist li
+{
+display: inline;
+list-style-type: none;
+padding-right: 30px;
+color: #777;
+}
+
+ul#navlist a {
+	color: #777;
+	text-decoration: none;
+}
+
+ul#navlist a:hover {
+	color: #7fa83e;
+	text-decoration: none;
+}
+
+#nagy {
+	width: 934px;
+	height: 275px;
+	margin-bottom: 20px;
+	
+}
+
+#content {
+	
+}
+
+#borito {
+	float: left;
+	background-color: red;
+}
+
+#nagy {
+	background-color: #ddd;
+}
+
+#boritoszoveg {
+		
+	width: 550px;
+	float: right;
+	padding-left: 30px;
+padding-right: 30px;
+line-height: 22px;
+margin-top: 20px;
+}
+
+.k1 {
+color: #7fa83e;
+font-family: "MotivaSansBold", Helvetica, Arial, sans-serif;
+font-size: 18px;
+}
+
+.k2 {
+color: #7fa83e;
+font-family: "MotivaSansBold", Helvetica, Arial, sans-serif;
+font-size: 26px;
+}
+
+#fb {
+	float: right;
+	font-size: 10px;
+	color: #777;
+	padding-top: 30px;
+}
+
+
+
+#footer {
+	clear: both;
+	padding-top: 20px;
+	background-color: #7fa83e;
+	margin-top: 20px;
+	
+}
+
+#fwrap {
+	margin: 0 auto 0 auto;
+	font-size: 12px;
+	color: #fff;
+	height: 150px;
+	width: 934px;
+}
+
+#flogo {
+	float: left;
+}
+
+#ftext {
+	float: right;
+	width: 400px;
+	text-align: right;
+}
+
+#ftext img{
+	padding-right: 10px;
+}
+
+
+#harom .form-label-left {
+	font-weight: normal;
+}
+
+#harom .form-label-right {
+	font-weight: normal;
+}
+
+#hirl {
+	float: left;
+	width: 350px;
+}
+
+#mc_embed_signup {
+	float: left;
+	width:330px;
+	margin-bottom: 20px;
+}
+
+#mc-embedded-subscribe {
+float: right;
+	
+}
+
+.input {
+    border: 1px solid #006;
+    background: #ffc;
+}
+.button {
+    border: 0px none #006;
+    background: #7fa83e;
+    color: white;
+	padding: 8px;
+	font: 14px "MotivaSansBold", Helvetica, Arial, sans-serif;
+	-moz-box-shadow: 0 0 5px #898383;
+	-webkit-box-shadow: 0 0 5px #898383;
+	box-shadow: 0 0 5px #898383;
+	opacity: 1;
+}
+
+
+.red {
+    color: #ff0000;
+}
